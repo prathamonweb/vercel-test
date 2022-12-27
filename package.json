@@ -1,0 +1,22 @@
+{
+  "name": "vercel-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathamonweb/vercel-test.git"
+  },
+  "author": "Pratham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathamonweb/vercel-test/issues"
+  },
+  "homepage": "https://github.com/prathamonweb/vercel-test#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
