@@ -1,24 +1,48 @@
-<%-include('partials/header'); %> 
+<%-include('partials/header'); %>
 
+<main class="main">
+  <div class="d-flex container justify-content-between">
+    <div class="mainBox">
+      <h2 class="mainHeading">Welcome To Listing</h2>
+      <h2 class="mainHeading">List your business</h2>
+      <h2 class="mainHeading">And find customers</h2>
 
-
-<main class="main ">
-<div class="d-flex container justify-content-between">
-    <div class=" mainBox">
-        <h2 class="mainHeading">Welcome To Listing</h2>
-        <h2 class="mainHeading">List your business</h2>
-        <h2 class="mainHeading">And find  customers</h2>
-
-
-        <div class="search-div"><input type="textbox" autocomplete="off" placeholder="What are you looking for?" name="query" value="" class="home-search-element"></div>
+      <div class="search-div">
+        <input
+          type="textbox"
+          autocomplete="off"
+          placeholder="What are you looking for?"
+          name="query"
+          value=""
+          class="home-search-element"
+        />
+      </div>
     </div>
-    <div class="mainImag ">
-        <div class="yellowback">
-
-        </div>
-        <img src="/images/hero-girl.png" alt="">
+    <div class="mainImag">
+      <div class="yellowback"></div>
+      <img src="/images/hero-girl.png" alt="" />
     </div>
-</div>
+  </div>
 </main>
 
-<%- include('partials/footer'); %> 
+<section>
+  <div class="container B2B">
+    <h3 class="text-center">
+      GoodFirms is helping millions of B2B tech companies find & promote
+      software products & services
+    </h3>
+    <div class="d-flex">
+      <div class="icon">
+        <div class="icon-box">
+          <img src="" alt="" />
+        </div>
+        <div class="content-box">
+            <p>40000+</p>
+            <p>Verified Reviews</p>
+        </divcla>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/footer'); %>
